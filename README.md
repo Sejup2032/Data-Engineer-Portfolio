@@ -1,5 +1,5 @@
 # Data-Engineer-Portfolio
-# 📊 Data Engineer
+## 👩‍💻 Hii 👋
 
 
 <table>
@@ -8,8 +8,9 @@
       <img width="150" height="200" alt="Image" src="https://github.com/user-attachments/assets/bbbbc7ec-4c30-4a77-a564-1c95e32f26f1" />
     </td>
     <td style="padding-left: 20px; vertical-align: middle;">
-      <p>Hi👋<br>
-          I’m a Data Engineer who enjoys working with data end-to-end from building pipelines to transforming raw data into something meaningful. I’ve worked with Azure Services, Spark, Python, and SQL to create reliable data workflows and support analytics needs. I like simplifying complex data problems and making data easier to use for decision-making.</p>
+      <p>
+          I’m a Data Engineer with 3+ years of experience building cloud-native data pipelines using Azure Data Factory, Databricks, PySpark, SQL, and Delta Lake. I focus on creating scalable, reliable, and analytics-ready data solutions.
+</p>
     </td>
   </tr>
 </table>
@@ -87,8 +88,8 @@
 ---
 
 ## 🔹 Projects  
-### End-to-End Data Engineering Basic Project on Azure
-- **Objective**: Design and implement a scalable end-to-end data pipeline to ingest, transform, and deliver business-ready insights using Azure cloud services.
+### Enterprise-Grade Azure Data Pipeline with Medallion Architecture
+- **Objective**: Designed and implemented a production-style, end-to-end Azure data pipeline capable of ingesting, transforming, and delivering analytics-ready datasets using a fully cloud-native architecture.
 - **Tech Stack**: ![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Azure Databricks](https://img.shields.io/badge/Azure_Databricks-EA3E23?style=flat&logo=databricks&logoColor=white)
 ![Azure Synapse](https://img.shields.io/badge/Azure_Synapse-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
@@ -97,52 +98,19 @@
 ![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=flat&logo=apache-spark&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=database&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-- **Approach**: Built a modular data pipeline using Azure Data Factory for ingestion and orchestration.
-Implemented Medallion architecture (Bronze, Silver, Gold) in Azure Data Lake.
-Performed large-scale data transformation using PySpark in Azure Databricks.
-Designed external tables and data models in Azure Synapse Analytics for analytics consumption.
-Integrated Power BI for interactive dashboards and business reporting.
-- **Results**: Developed a scalable and production-ready ETL pipeline architecture.
-Improved data processing efficiency through optimized PySpark transformations.
-Enabled real-time business insights using Power BI dashboards.
-Demonstrated seamless integration across multiple Azure services.
+- **Approach**:
+  - Built a modular ingestion framework in Azure Data Factory to orchestrate batch and scheduled data loads.
+  - Implemented Medallion Architecture (Bronze → Silver → Gold) in ADLS Gen2 to enforce data quality, lineage, and structured processing.
+  - Developed scalable PySpark transformation pipelines in Azure Databricks, optimizing joins, partitions, and caching for performance.
+  - Created Delta Lake tables to enable ACID transactions, schema evolution, and efficient incremental processing.
+  - Modeled curated datasets in Azure Synapse Analytics using external tables, views, and star-schema design.
+  - Integrated Power BI dashboards to visualize KPIs and deliver real-time business insights.
+- **Results**:
+  - Delivered a production-ready ETL/ELT pipeline with automated orchestration and monitoring.
+  - Improved data processing performance by 30% through PySpark optimization techniques.
+  - Enabled near real-time analytics through Delta Lake and optimized data modeling.
+  - Demonstrated seamless integration across the Azure ecosystem for end-to-end data engineering.
 - **Code**: https://github.com/Sejup2032/End-to-end-data-engineering-azure
-
-### Enhancing Thyroid Nodule Diagnosis Using Deep Learning
-- **Objective**: Automate thyroid nodule classification to assist radiologists and reduce manual workload.
-- **Tech Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![MONAI](https://img.shields.io/badge/MONAI-FF6F00?style=flat&logo=python&logoColor=white)
-![CNN](https://img.shields.io/badge/CNN-FF6F00?style=flat&logo=python&logoColor=white)
-![Data Augmentation](https://img.shields.io/badge/Data_Augmentation-4B0082?style=flat&logo=python&logoColor=white)
-- **Approach**: Developed a convolutional neural network (CNN) model trained on labeled thyroid images.
-                Applied data augmentation techniques to improve model generalization.
-- **Results**:  Achieved 92% classification accuracy.
-                Reduced manual labeling time by 35%, improving workflow efficiency.
----
----
-## 🔹 Publications
-
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Medical Imaging](https://img.shields.io/badge/Medical%20Imaging-4CAF50?style=flat)
-![Thyroid Nodule](https://img.shields.io/badge/Thyroid%20Nodule%20Detection-009688?style=flat)
-![Conference Paper](https://img.shields.io/badge/Conference%20Paper-3F51B5?style=flat)
-![ITI 2025](https://img.shields.io/badge/ITI%202025-NIT%20Agartala-673AB7?style=flat)
-
-**Deep Learning Techniques for Thyroid Nodule Detection**  
-_2nd International Conference on Information Technology and Intelligence [(ITI 2025)](https://drive.google.com/file/d/1_RICW7_g1Ra_dX6CpbH85vSCLUmGsFgs/view),  
-National Institute of Technology, Agartala, India_
-
-![Cryptography](https://img.shields.io/badge/Cryptography-9C27B0?style=flat)
-![Encryption](https://img.shields.io/badge/Encryption-795548?style=flat)
-![Vedic Mathematics](https://img.shields.io/badge/Vedic%20Mathematics-FF9800?style=flat)
-![Journal Paper](https://img.shields.io/badge/Journal%20Paper-607D8B?style=flat)
-![IJIIR](https://img.shields.io/badge/IJIIR-Vol.%201%20Issue%203%20(2022)-2196F3?style=flat)
-
-**Vedic Mathematics for Encryption Techniques**  
-_International Journal of Innovative Interdisciplinary Research [(IJIIR)](https://drive.google.com/file/d/1iKMQz9Grekkx8afEKr6gjvbq931os9yz/view),  
-Vol. 1, Issue 3, March 2022_
-
 ---
 ---
 
