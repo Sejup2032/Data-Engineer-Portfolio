@@ -47,8 +47,19 @@
 ![ADLS Gen2](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) 
 ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
 ![Unity Catalog](https://img.shields.io/badge/Unity_Catalog-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Logic Apps](https://img.shields.io/badge/-Logic_Apps-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+
 * **The Problem**: Schema drift and loss of historical user status during subscription changes.
-* **The Solution**: Implemented **SCD Type 2** via `dlt.apply_changes()` and automated quality checks using **DLT Expectations**. Orchestrated with **Databricks Asset Bundles** for a CI/CD-ready workflow.
+* **Approach**:
+  - Engineered a **Metadata-Driven Ingestion** layer in ADF using a Watermark pattern to handle incremental data loads across multiple tables via `ForEach` loops.
+  - Implemented **Delta Live Tables (DLT)** for a declarative Medallion Architecture (Bronze → Silver → Gold).
+  - Developed **SCD Type 2** logic for historical tracking and automated quality checks using **DLT Expectations**. Used **DABs** for CI/CD deployment.
+  - Integrated **Azure Logic Apps** for automated pipeline failure notifications.
+
+* **Results**:
+  - Reduced ingestion compute costs by **45%** by moving from full-load to incremental-load logic.
+  - Automated the entire lifecycle from source-extraction to BI-ready Gold tables with zero manual intervention.
+
 * **Code**: [View Repository](https://github.com/Sejup2032/Incremental-ETL-and-Dimensional-Modeling-Platform-on-Azure-Lakehouse-Architecture)
   
 ### ☁️ 2. Enterprise Azure Data Pipeline (Medallion)
