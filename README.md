@@ -30,7 +30,8 @@
 
 ## 📜 Certifications
 - 🔴 **Databricks Certified: Data Engineer Associate**
-- 🔵 **Microsoft Certified: Fabric Data Engineer Associate)** 
+- 🔵 **Microsoft Certified: Fabric Data Engineer Associate)**
+- 🔵 **Google Cloud Certified: Associate Cloud Engineer**
 - 🔵 **Microsoft Azure DP-900 & AI-900**
 - 🏆 **Databricks Data Privacy & Generative AI Certified**
 - 🟢 **HackerRank SQL (Intermediate)**
