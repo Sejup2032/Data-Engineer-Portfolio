@@ -125,7 +125,11 @@ Raw Sources: <br>
 ### 👥 4. Workforce Attrition Analytics Platform
 *Interactive HR analytics platform for uncovering workforce retention and employee turnover insights.*
 
-* **Tech Stack:** Power BI • DAX • Star Schema • Excel • CSV
+* **Tech Stack:** ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=power-bi&logoColor=black)
+![DAX](https://img.shields.io/badge/-DAX-0F4C81?style=flat-square)
+![Star Schema](https://img.shields.io/badge/-Star%20Schema-4285F4?style=flat-square)
+![Excel](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
+![CSV](https://img.shields.io/badge/-CSV-4CAF50?style=flat-square)
 
 * **Highlights:** Developed an end-to-end attrition analytics solution using advanced DAX and dimensional modeling to identify workforce turnover drivers. Delivered executive dashboards tracking attrition KPIs, salary impacts, tenure trends, and department-level retention metrics.
 
